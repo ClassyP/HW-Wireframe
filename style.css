@@ -26,15 +26,24 @@ nav {
 }
 
 section {
+  padding: 10px;
+  color: #333;
+  background: #ccc;
+  text-align: left;
+}
+aside {
   padding: 20px;
   color: #333;
   background: #ccc;
   text-align: left;
 }
-#middle {
-}
 
-#right {
+article {
+  padding: 10px;
+  color: #333;
+  background: #ccc;
+  box-sizing: border-box;
+  text-align: right;
 }
 
 #full {
