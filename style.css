@@ -1,0 +1,54 @@
+/**
+ * wireframe easy homework 
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
+
+nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+
+}
+
+section {
+  padding: 20px;
+  color: #333;
+  background: #ccc;
+  text-align: left;
+}
+#middle {
+}
+
+#right {
+}
+
+#full {
+}
+
+#division {
+}
+
+aside {
+}
+
+#footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #ccc;
+}
