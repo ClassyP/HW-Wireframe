@@ -8,6 +8,8 @@
 }
 
 body {
+	background: #777
+	Content:#ebebeb
 }
 
 header {
@@ -15,6 +17,8 @@ header {
   margin-bottom: 20px;
   color: #333;
   background: #ccc;
+  body:960px;
+  section: 495px
 }
 
 nav {
@@ -22,20 +26,25 @@ nav {
   margin-bottom: 20px;
   color: #333;
   background: #ccc;
+  section: 495px
 
 }
 
 section {
   padding: 10px;
-  color: #333;
-  background: #ccc;
+  color: #green;
+  background: #green;
   text-align: left;
+  width: 50%;
+  section: 495px
 }
 aside {
   padding: 20px;
   color: #333;
   background: #ccc;
-  text-align: left;
+  text-align: right;
+  width: 50%
+  section: 495px
 }
 
 article {
@@ -44,18 +53,18 @@ article {
   background: #ccc;
   box-sizing: border-box;
   text-align: right;
+  section: 495px
 }
 
-#full {
+h1, h2, h3 {
+   section: 495px
 }
 
-#division {
-}
 
 aside {
 }
 
-#footer {
+footer {
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
