@@ -8,8 +8,9 @@
 }
 
 body {
-	background: #777
-	Content:#ebebeb
+	background: #777;
+	color:#ebebeb;
+	width:960px;
 }
 
 header {
@@ -17,8 +18,7 @@ header {
   margin-bottom: 20px;
   color: #333;
   background: #ccc;
-  body:960px;
-  section: 495px
+  section: 495px;
 }
 
 nav {
@@ -35,22 +35,22 @@ section {
   color: #green;
   background: #green;
   text-align: left;
-  width: 50%;
-  section: 495px
+  width: 49%;
+  height: 49%;
 }
 aside {
   padding: 20px;
   color: #333;
-  background: #ccc;
-  text-align: right;
-  width: 50%
-  section: 495px
+  background: #aaa;
+  float: right;
+  width: 30%
+  height:49%;
 }
 
 article {
   padding: 10px;
-  color: #333;
-  background: #ccc;
+  background: #777;
+  color:#ebebeb;
   box-sizing: border-box;
   text-align: right;
   section: 495px
@@ -61,12 +61,10 @@ h1, h2, h3 {
 }
 
 
-aside {
-}
-
 footer {
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
   background: #ccc;
+  float: center;
 }
