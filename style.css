@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
   text-align: center;
+  
 }
 
 body {
@@ -42,9 +43,16 @@ aside {
   padding: 20px;
   color: #333;
   background: #aaa;
-  float: right;
+  float: left;
   width: 30%
   height:49%;
+
+}
+
+.clearfix::after {
+    content: "aside";
+    clear: both;
+    display: table;
 }
 
 article {
